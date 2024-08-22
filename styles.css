@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@519&display=swap');
+
+body {
+    background-color: #c4beb5;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large
+    font-family: 'Roboto+Slab';
+}
+
+h2 { 
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p {
+
+    text-align: center;
+    font-family: sans-serif;
+}
+#landing {
+
+    justify-content:space-around;
+    display: flex;
+    padding-bottom: 20px;
+    
+    
+}
+
+#landingimg {
+
+    /* background: rgba(4, 170, 109, 0.3)  */
+    opacity: 0.5;
+
+   
+
+   
+} 
+
+#landingtext {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  color:#FFFDFA;
+  opacity: 1;
+  
+
+  
+}
+ 
+
+
+#form {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#homepage {
+
+    justify-content:space-around;
+    display: flex;
+    padding-bottom: 20px;
+    /* text-wrap-style:auto; */
+    background-color: #FFFDFA;
+    box-shadow: 10px 5px 5px #2f332d, 0.5; 
+    border-radius: 25px;
+    margin: 20px;
+}
+
+#homepageimg {
+    padding: 20px;
+    im
+}
+
+#homepagetxt {
+
+    line-height: 1.4;
+    padding: 40px;
+    justify-content: space-around;
+    /* text-wrap-style:pretty */
+    font-family: sans-serif;
+}
+
+/* #drinkslist {
+
+} */
+
+#drinkspage {
+    background-color: #4D693A;
+    flex-wrap:wrap;
+    display: flex;
+    border-radius: 5px;
+}
+
+.drinks {
+
+  display: flex;  
+  background-color: #fffdfa;
+  padding-bottom: 20px;
+  box-shadow: 10px 5px 5px #2f332d;
+  border-radius: 25px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 450px;
+  height: 450px;
+    
+
+
+}
+
+.drinksimg img{
+    width: 300px;
+    height: 200px;
+}
+
+.drinksimg {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    
+
+   
+
+}
+.drinkstxt {
+
+    display: flex;  
+  font-family: sans-serif;
+  width: 150px;
+  justify-content: center;
+  flex-wrap: wrap;
+    
+
+    
+
+}
+
+#pastriesimg {
+
+    padding: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+
+
+
+}
+
+#pastriestxt {
+
+    padding: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+
+
+}
+
+#pastriesprice {
+
+    padding: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+
+}
+
+#openingtimes {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #openingtimes td, #openingtimes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #openingtimes tr:nth-child(even){background-color: #FFFDFA;}
+  
+  #openingtimes tr:hover {background-color: #C1730E;}
+  
+  #openingtimes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4D693A;
+    color: #FFFDFA;
+
+  } 
+
+
+#navbar {
+    background-color: #C1730E;
+    text-decoration:solid
+    height: 182px;
+    font-size: 40px;
+    display: flex;
+    justify-content:space-evenly; 
+    align-items: center;
+    border-radius: 25px;
+    
+    
+}
+
+#navbartext {
+
+
+
+}
+
+#listyboy {
+
+    background-color: #FFFDFA;
+    box-shadow: 10px 5px 5px #2f332d; 
+    border-radius: 25px;
+    line-height: 1.4;
+}
+
+
+#footer {
+    background-color: #C1730E;
+    height: 142px;
+    font-size: 26px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 25px;
+    
+    
+}
