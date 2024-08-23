@@ -6,6 +6,12 @@ body {
     padding: 20px;
 
 }
+@media screen and (max-width: 800px) {
+body {
+background-color: #2f332d;
+}
+    
+}
 
 h1 {
     text-align: center;
@@ -35,7 +41,7 @@ p {
 #landingimg {
 
     /* background: rgba(4, 170, 109, 0.3)  */
-    opacity: 0.5;
+    /* opacity: 0.5; */
 
    
 
@@ -51,6 +57,7 @@ p {
   font-family: sans-serif;
   color:#FFFDFA;
   opacity: 1;
+  
   
 
   
@@ -72,14 +79,18 @@ p {
     padding-bottom: 20px;
     /* text-wrap-style:auto; */
     background-color: #FFFDFA;
-    box-shadow: 10px 5px 5px #2f332d, 0.5; 
-    border-radius: 25px;
+    border-radius: 5px;
     margin: 20px;
+    box-shadow: 10px 5px 5px #2f332d; 
+    max-width: 100%;
+    height: auto;
+
 }
 
-#homepageimg {
+.homepageimg {
     padding: 20px;
-    im
+    max-width: 100%;
+    height: auto;
 }
 
 #homepagetxt {
@@ -89,6 +100,7 @@ p {
     justify-content: space-around;
     /* text-wrap-style:pretty */
     font-family: sans-serif;
+    
 }
 
 /* #drinkslist {
@@ -108,7 +120,7 @@ p {
   background-color: #fffdfa;
   padding-bottom: 20px;
   box-shadow: 10px 5px 5px #2f332d;
-  border-radius: 25px;
+  border-radius: 5px;
   margin: 20px;
   justify-content: center;
   align-items: center;
@@ -186,6 +198,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    
   }
   
   #openingtimes td, #openingtimes th {
@@ -207,30 +220,32 @@ p {
   } 
 
 
-#navbar {
+.navbar {
     background-color: #C1730E;
-    text-decoration:solid
+    text-decoration:none
     height: 182px;
     font-size: 40px;
     display: flex;
     justify-content:space-evenly; 
     align-items: center;
-    border-radius: 25px;
+    border-radius: 5px;
     
     
 }
 
 #navbartext {
+    max
 
 
 
 }
 
+
 #listyboy {
 
     background-color: #FFFDFA;
     box-shadow: 10px 5px 5px #2f332d; 
-    border-radius: 25px;
+    border-radius: 5px;
     line-height: 1.4;
 }
 
@@ -242,7 +257,7 @@ p {
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    border-radius: 25px;
+    border-radius: 5px;
     
     
 }
